@@ -1,0 +1,12 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          lob:
+            non_contextual_creation: true
+        default_schema: users
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: userv
+    password: test1234
